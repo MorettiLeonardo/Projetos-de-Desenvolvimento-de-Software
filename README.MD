@@ -1,41 +1,79 @@
-TRABALHO SEMESTRAL INTEGRADOR – PROJETO E IMPLEMENTAÇÃO
-EM JAVA
-Objetivo Geral
-Desenvolver em duplas um sistema de software orientado a objetos, aplicando conceitos
-avançados de Java, boas práticas de projeto, padrões arquiteturais e técnicas de engenharia
-de software. O trabalho será desenvolvido em etapas, com entregas parciais e defesa de
-código.
-✅ Tema do Sistema
-Cada grupo deverá propor um sistema de médio porte, contemplando pelo menos 3 ou mais
-entidades principais, com relacionamentos e regras de negócio coerentes. Exemplos:
-● Sistema de gerenciamento de biblioteca (livros, usuários, empréstimos)
-● Sistema de pedidos online (clientes, produtos, pedidos)
-● Sistema de agendamento (clientes, serviços, horários)
-Os temas e duplas serão informados na aula do dia 27/08
-ENTREGAS
-1ª Entrega – 10/09 (Peso 2,0)
-Conteúdo esperado:
-● Modelo de classes inicial, considerando:
-○ Uso de herança, encapsulamento e polimorfismo
-○ Implementação de pelo menos 1 interface
-○ Presença de tratamento de exceções
-○ Estrutura planejada para uso de Collections (ArrayList, Set ou Map)
-● Diagrama de classes (conceitual e/ou inicial)
-● Justificativa breve (1 página): Como aplicou os conceitos vistos até então.
-✅ Requisitos mínimos para 1ª entrega:
-● Mínimo de 6 classes (incluindo classes abstratas ou interfaces)
-● Pelo menos 1 relação de herança
-● Pelo menos 1 interface implementada
-● Uso de Collections para armazenar objetos
-● Tratamento de pelo menos 1 exceção.
-📌 Entrega: Documento com o diagrama e breve explicação + Código inicial no JDoodle ou
-GitHub.
-2ª Entrega – Novembro (Peso 3,0)
-Conteúdo esperado:
-● Projeto completo, incluindo:
-Aplicação de redução de complexidade (camadas, pacotes, modularização)
-○ Gerenciamento de dependências (uso de Maven ou Gradle)
-○ Controle de versão (GitHub com histórico de commits)
+# 📚 Trabalho Semestral Integrador – Projeto e Implementação em Java
+
+## 🎯 Objetivo Geral
+
+Desenvolver em duplas um sistema de software **orientado a objetos**, aplicando conceitos avançados de Java, boas práticas de projeto, padrões arquiteturais e técnicas de engenharia de software.
+
+O trabalho será desenvolvido em etapas, com entregas parciais e **defesa de código**.
+
+---
+
+## ✅ Tema do Sistema
+
+Cada grupo deverá propor um sistema de **médio porte**, contemplando pelo menos 3 ou mais entidades principais, com relacionamentos e regras de negócio coerentes.
+
+### Exemplos:
+- 📖 Sistema de gerenciamento de biblioteca (`livros`, `usuários`, `empréstimos`)
+- 🛒 Sistema de pedidos online (`clientes`, `produtos`, `pedidos`)
+- 📅 Sistema de agendamento (`clientes`, `serviços`, `horários`)
+
+> **Os temas e as duplas foram informados na aula do dia 27/08.**
+
+---
+
+## 📦 Entregas
+
+### 📌 **1ª Entrega – 10/09 (Peso 2,0)**
+
+#### Conteúdo Esperado:
+
+- Modelo de **classes inicial**, considerando:
+  - ✅ Uso de **herança**, **encapsulamento** e **polimorfismo**
+  - ✅ Implementação de **pelo menos 1 interface**
+  - ✅ Presença de **tratamento de exceções**
+  - ✅ Estrutura planejada para uso de **Collections** (`ArrayList`, `Set`, ou `Map`)
+- 📊 **Diagrama de Classes** (conceitual e/ou inicial)
+- 📝 **Justificativa breve (1 página)** explicando como os conceitos foram aplicados
+
+#### ✅ Requisitos mínimos para validação:
+
+- [x] Mínimo de **6 classes** (incluindo abstratas ou interfaces)
+- [x] Pelo menos **1 relação de herança**
+- [x] Pelo menos **1 interface implementada**
+- [x] Uso de **Collections** para armazenar objetos
+- [x] Tratamento de **pelo menos 1 exceção**
+
+#### 📂 Entrega:
+- Documento com:
+  - ✅ Diagrama de Classes
+  - ✅ Justificativa textual
+- Código-fonte inicial em:
+  - [ ] JDoodle
+  - [ ] GitHub
+
+---
+
+### 📌 **2ª Entrega – Novembro (Peso 3,0)**
+
+#### Conteúdo Esperado:
+
+- ✅ **Projeto completo**, com:
+  - 📐 Aplicação de **redução de complexidade** (camadas, pacotes, modularização)
+  - 📦 **Gerenciamento de dependências** com Maven ou Gradle
+  - 🔄 **Controle de versão** via GitHub com histórico de commits
+
+---
+
+## ✍️ Observações Finais
+
+- Recomendado seguir boas práticas de codificação
+- Justificar claramente o uso de cada conceito
+- Preparar para apresentação oral do projeto
+
+---
+
+📅 **Boa sorte no desenvolvimento!**
+
 ○ Testes unitários (mínimo 3 testes com JUnit)
 ○ Documentação técnica (diagrama final de classes e descrição da arquitetura
 adotada)
