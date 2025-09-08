@@ -20,7 +20,15 @@ public class Cliente extends Usuario {
     }
 
     public void fazerDeposito(float valor) {
-        this.saldo += valor;
+        try {
+            if (valor <= 0) {
+                throw new IllegalArgumentException("Valor inválido para depósito.");
+            }
+            this.saldo += valor;
+            System.out.println("Depósito realizado com sucesso!");
+        } catch (IllegalArgumentException e) {
+            System.out.println("Erro: " + e.getMessage());
+        }
     }
 
     public void adicionarProdutoAoCarrinho(Produto produto) {
