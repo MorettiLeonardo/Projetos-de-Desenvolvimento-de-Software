@@ -33,7 +33,7 @@ public class Cliente extends Usuario {
 
     public void adicionarProdutoAoCarrinho(Produto produto) {
         carrinho.add(produto);
-        System.out.println("Produto adicionado ao carrinho com sucesso!");
+        System.out.println(produto.getNome() + " adicionado ao carrinho com sucesso!");
     }
 
     public void mostrarProdutosNoCarrinho() {
@@ -87,6 +87,7 @@ public class Cliente extends Usuario {
         }
 
         System.out.println("Pedido pago com sucesso!");
+        pedido.fazerPagamento(saldo);
         saldo -= pedido.getValorDoPedido();
     }
 }
